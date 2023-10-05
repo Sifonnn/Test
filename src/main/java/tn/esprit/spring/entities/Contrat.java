@@ -28,7 +28,8 @@ public class Contrat implements Serializable {
 	
 	@Temporal(TemporalType.DATE)
 	private Date dateDebut;
-	 
+	@Temporal(TemporalType.DATE)
+	private Date dateFin;
 	private String typeContrat;
  
 	@JsonIgnore
